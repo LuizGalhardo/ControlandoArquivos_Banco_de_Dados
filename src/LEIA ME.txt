@@ -1,0 +1,5 @@
+1. No pacote bancodedados é possível adicionar as credenciais para conexão com o banco de dados.
+2. No PgAdmin, clique com o botão direito do mouse no banco de dados que deseja implementar a migração e selecione a opção "Query Tool". Em seguida, abra o arquivo seeds, copie todo seu conteúdo e cole no editor do PgAdmin e execute. Assim a migração das tabelas com seus dados será feita e será possível visualizar os registros na aplicação além de poder manipular.
+
+
+Uma observação é que no campo de pesquisa pelo ID suporta texto, embora o ideal seja aceitar apenas números para não lançar exceção. No entanto, isso não foi implementado devido à sua complexidade e levando em conta que não se faz necessário nesse cenário.
